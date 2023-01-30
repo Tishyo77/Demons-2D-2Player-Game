@@ -1,0 +1,68 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point&display=swap" rel="stylesheet">
+    <style>
+        *
+        {
+            box-sizing: border-box;
+            font-family: 'Sulphur Point', sans-serif;
+        }
+    </style>
+    <title>
+        Demons
+    </title>
+</head>
+
+<body>
+    <div style = "position: relative; display: inline-block">
+        <div
+            style =
+            "
+                position: absolute;
+                display: flex;
+                width: 100%;
+                align-items: center;
+                padding: 20px;
+            "
+        >
+            <div style="position: relative; width: 100%; display: flex; justify-content: flex-end; border: 4px solid #1e293b; border-right: 0px;">
+                <div style="background-color: #ef4444; height: 30px; width: 100%">
+                </div>
+                <div id="playerHealth" style="position: absolute; background: #94a3b8; top: 0; right: 0; bottom: 0; width: 100%">
+                </div>
+            </div>
+            <div 
+                id="timer"
+                style="
+                    background-color: #475569;
+                    width: 90px;
+                    height: 75px;
+                    flex-shrink: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    border: 4px solid #1e293b;
+                    font-size: 40px;
+                "
+            > 
+                121
+            </div>
+            <div style="position: relative; width: 100%; border: 4px solid #1e293b; border-left: 0px;">
+                <div style="background-color: #ef4444; height: 30px">
+                </div>
+                <div id="enemyHealth" style="position: absolute; background: #94a3b8; top: 0; right: 0; bottom: 0; left: 0">
+                </div>
+            </div>
+            <div></div>
+        </div>
+        <div id="displayText" style="position: absolute; color: blackaw; display: flex; align-items: center; justify-content: center; top: 0; right: 0; bottom: 0; left: 0; display: none; font-size: 50px;">Tie</div>
+        <canvas></canvas>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="utils.js"></script>
+    <script src="classes.js"></script>
+    <script src="Alcohol.js"></script>
+</body>

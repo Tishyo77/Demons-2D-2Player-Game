@@ -1,0 +1,89 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+p
+{
+    position: absolute;
+    bottom: 300px;
+    left: 750px;
+    font-size: 60px;
+}
+
+.title
+{
+    position: absolute;
+    left: 675px;
+    bottom: 625px;
+    font-size: 60px;
+    color: rgb(56, 90, 0);
+}
+.Smoking
+{
+    position: relative;
+    top: 60px;
+    right: 250px;
+    width: auto;
+    height: 350px;
+}
+.SmoText
+{
+    position: absolute;
+    bottom: 70px;
+    left:390px;
+}
+
+.Drinking
+{
+    position: relative;
+    top: 60px;
+    left: 250px;
+    width: auto;
+    height: 350px;
+}
+.DriText
+{
+    position: absolute;
+    bottom: 70px;
+    right: 290px;
+}
+
+p
+{
+    color: black;
+    margin: 30px 0;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+nav
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(255, 222, 88) , rgb(73, 255, 125));
+    z-index: 2;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
